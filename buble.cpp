@@ -38,7 +38,7 @@ void input(){
             }
         }
         pass = pass + 1; //step 4 
-    } while (pass < n - 1); //step 5
+    } while (pass <= n - 1); //step 5
 } void display (){
     cout << endl;
     cout << "=================================" << endl;
